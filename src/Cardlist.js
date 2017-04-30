@@ -32,13 +32,6 @@ export default class Cardlist extends React.Component {
             .sort((a, b) => this.sortAscending(a.due, b.due)) // sort by time ascending
         })
       })
-
-    // axios.get(`https://api.trello.com/1/boards/50fa830b365c57f947004b12/labels?key=aa7ec38ab6a4c3d02f59026f00acae3b&token=${token}`)
-    //   .then((res) => {
-    //     const labels = _.fromPairs(res.data.map((label) => ([label.id, colormap[label.color]])))
-    //     this.setState({labels})
-    //   })
-
   }
 
   sortAscending (a, b) {
@@ -48,7 +41,6 @@ export default class Cardlist extends React.Component {
   render () {
     const { cards } = this.state
     const groupedByDate = _.toPairs(_.groupBy(cards, (card) => moment(card.due).startOf('day').toISOString())).sort((a,b) => this.sortAscending(a[0], b[0]))
-    console.debug(groupedByDate)
     const dateGroups = groupedByDate.map((group) => {
       const cards = group[1].sort((a, b) => this.sortAscending(a.due, b.due)).map((card) => {
         const labels = card.labels
