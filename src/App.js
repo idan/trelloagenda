@@ -12,9 +12,9 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="mw6 center">
-          <Route path='/' component={Home} />
+        <div className="mw6 center h-100">
           <Route path='/authcallback' component={AuthCallback} />
+          <Route exact path='/' component={Home} />
         </div>
       </Router>
 
