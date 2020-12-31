@@ -1,15 +1,12 @@
-import React from 'react'
 import {
   BrowserRouter as Router,
   Route,
 } from 'react-router-dom'
 
-import './App.css'
 import Home from './Home'
 import AuthCallback from './AuthCallback'
 
-class App extends React.Component {
-  render() {
+function App() {
     return (
       <Router>
         <div className="mw6 center h-100">
@@ -19,7 +16,6 @@ class App extends React.Component {
       </Router>
 
     )
-  }
 }
 
-export default App
+export default App;
