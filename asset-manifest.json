@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/trelloagenda/static/css/main.0d183a93.chunk.css",
+    "main.js": "/trelloagenda/static/js/main.8dee8c98.chunk.js",
+    "main.js.map": "/trelloagenda/static/js/main.8dee8c98.chunk.js.map",
+    "runtime-main.js": "/trelloagenda/static/js/runtime-main.c836c777.js",
+    "runtime-main.js.map": "/trelloagenda/static/js/runtime-main.c836c777.js.map",
+    "static/js/2.bb0dd9cc.chunk.js": "/trelloagenda/static/js/2.bb0dd9cc.chunk.js",
+    "static/js/2.bb0dd9cc.chunk.js.map": "/trelloagenda/static/js/2.bb0dd9cc.chunk.js.map",
+    "static/js/3.b9f47a6d.chunk.js": "/trelloagenda/static/js/3.b9f47a6d.chunk.js",
+    "static/js/3.b9f47a6d.chunk.js.map": "/trelloagenda/static/js/3.b9f47a6d.chunk.js.map",
+    "index.html": "/trelloagenda/index.html",
+    "static/css/main.0d183a93.chunk.css.map": "/trelloagenda/static/css/main.0d183a93.chunk.css.map",
+    "static/js/2.bb0dd9cc.chunk.js.LICENSE.txt": "/trelloagenda/static/js/2.bb0dd9cc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c836c777.js",
+    "static/js/2.bb0dd9cc.chunk.js",
+    "static/css/main.0d183a93.chunk.css",
+    "static/js/main.8dee8c98.chunk.js"
+  ]
+}
